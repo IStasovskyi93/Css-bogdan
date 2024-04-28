@@ -4,8 +4,6 @@ h1 {
   font-size: 30px;
 }
 .top {
-  border: 2px solid red;
-  /* width: 1200px; */
   font-size: 0;
 }
 .top img {
@@ -15,4 +13,23 @@ h1 {
   width: 25%;
   font-size: initial;
   display: inline-block;
+}
+.bg-image {
+  background-image: url("https://picsum.photos/id/50/200");
+  width: 200px;
+  height: 200px;
+  font-weight: 700;
+  font-size: 20px;
+}
+.bg-small {
+  background-image: url("https://picsum.photos/id/61/200");
+  width: 350px;
+  height: 350px;
+  border: 1px solid gray;
+}
+.bg-repeat-off {
+  background-repeat: no-repeat;
+}
+.bg-repeat-no-crop {
+  background-repeat: round;
 }
