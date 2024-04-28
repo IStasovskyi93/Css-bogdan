@@ -3,11 +3,16 @@ h1 {
   color: rgb(212, 45, 212);
   font-size: 30px;
 }
-.images-top {
+.top {
   border: 2px solid red;
   /* width: 1200px; */
   font-size: 0;
 }
-.images-top img {
+.top img {
   width: calc(100% / 3);
+}
+.top p {
+  width: 25%;
+  font-size: initial;
+  display: inline-block;
 }
